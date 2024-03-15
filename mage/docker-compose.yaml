@@ -1,0 +1,9 @@
+version: '3'
+services:
+  magic:
+    image: mageai/mageai:latest
+    ports:
+      - 6789:6789
+    volumes:
+      - .:/home/src/mage/
+    restart: on-failure:5
