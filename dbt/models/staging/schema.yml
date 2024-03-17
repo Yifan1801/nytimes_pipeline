@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: steam-life-410920
+    schema: nytimes_best_seller
+
+    tables:
+      - name: overview
+      - name: book_review
+
