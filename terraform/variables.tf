@@ -11,6 +11,7 @@ variable "location" {
 variable "gcs_bucket_name" {
   description = "The name of your Google Cloud Storage bucket"
   type        = string
+  default     = "nytimes_project"
 }
 
 variable "bq_dataset_name" {
