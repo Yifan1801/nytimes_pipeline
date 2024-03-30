@@ -45,7 +45,11 @@ The project infrastructure consists of the following components:
         - location
         - region
         - gcp_key (The path to your gcp service account key)
-    - Run terraform plan & terraform apply to build the resources
+    - Run the following commands to build the resources
+    ```
+    terraform plan
+    terraform apply
+    ```
 
 3. Get New York Times API key
     - Create an account on https://developer.nytimes.com/ and get api key for later use.
@@ -66,7 +70,10 @@ The project infrastructure consists of the following components:
     - This project uses Looker Studio as the dashboard tool. Feel free to use other dashboards.
 
 7. Tear down resources
-    - Tear down the resources by running "terraform destroy" to prevent extra cost.
+    - Tear down the resources by running the following command to prevent extra cost.
+    ```
+    terraform destroy
+    ```
 
 
 ## Next Steps
