@@ -27,9 +27,9 @@ The project infrastructure consists of the following components:
 * Looker Studio is used to create interactive dashboards and reports. With Looker Studio, users can gain valuable insights into trends, patterns, and performance metrics related to the NYT Best Sellers data.
 
 ## Dashboard
-[** The link to the dashboard **](https://lookerstudio.google.com/reporting/494d1c6b-d145-4972-aba6-0f6751ad2e4f)
+**[Link to the Dashboard]**(https://lookerstudio.google.com/reporting/494d1c6b-d145-4972-aba6-0f6751ad2e4f)
 
-IMAGE
+![Screenshot of the dashboard](images/dash.png)
 
 ## Replication Guide
 
