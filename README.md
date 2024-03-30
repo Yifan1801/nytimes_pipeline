@@ -19,7 +19,7 @@ The project infrastructure consists of the following components:
 - **Docker:** [Official Website](https://www.docker.com/)
 - **Looker Studio:** [Official Website](https://cloud.google.com/looker-studio?hl=en)
 
-IMAGE
+![Project Architecture Diagram](images/project_architecture.svg)
 
 * Terraform is employed to provision the necessary infrastructure components for our data pipeline on Google Cloud Platform (GCP). This includes setting up Google Cloud Storage (GCS) buckets and BigQuery datasets.
 * Mage serves as our data orchestration tool, enabling us to automate the extraction of data from the New York Times (NYT) API and load it into our GCS data lake and later into BigQuery. With Mage, we can schedule and manage our data pipelines efficiently, ensuring timely ingestion of updated NYT Best Sellers data.
@@ -64,6 +64,9 @@ IMAGE
 6. Build Dashboard
     - At this point, the data table in your BigQuery dataset is ready to be used for later analysis or building dashboards.
     - This project uses Looker Studio as the dashboard tool. Feel free to use other dashboards.
+
+7. Tear down resources
+    - Tear down the resources by running "terraform destroy" to prevent extra cost.
 
 
 ## Next Steps
